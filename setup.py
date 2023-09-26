@@ -44,7 +44,9 @@ setuptools.setup(
     license='MIT',
     packages=['deconvolution_models'],
     install_requires=['numpy', 'pandas', 'scipy', 'bottleneck', "Click", "pytest","scikit-learn",
-                      f"epiread-tools @ git+https://github.com/methylgrammarlab/epiread-tools.git#egg=epiread-tools"
+                      f"epiread-tools @ git+https://github.com/methylgrammarlab/epiread-tools.git#egg=epiread-tools",
+                      f"bimodal_detector @ git+https://github.com/methylgrammarlab/bimodal_detector"
+
                       ],
     include_package_data=True,
     entry_points={
